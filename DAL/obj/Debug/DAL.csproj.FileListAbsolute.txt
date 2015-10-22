@@ -1,0 +1,12 @@
+D:\StationSolution\DAL\bin\Debug\DAL.dll.config
+D:\StationSolution\DAL\bin\Debug\DAL.dll
+D:\StationSolution\DAL\bin\Debug\DAL.pdb
+D:\StationSolution\DAL\bin\Debug\Core.dll
+D:\StationSolution\DAL\bin\Debug\EntityFramework.dll
+D:\StationSolution\DAL\bin\Debug\Infrastructure.dll
+D:\StationSolution\DAL\bin\Debug\Core.pdb
+D:\StationSolution\DAL\bin\Debug\Infrastructure.pdb
+D:\StationSolution\DAL\bin\Debug\EntityFramework.xml
+D:\StationSolution\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\StationSolution\DAL\obj\Debug\DAL.dll
+D:\StationSolution\DAL\obj\Debug\DAL.pdb

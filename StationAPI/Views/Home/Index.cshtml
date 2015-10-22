@@ -1,0 +1,29 @@
+﻿@Scripts.Render("~/bundles/Station")
+<hr />
+<div class="row">
+    <div ng-app="stationApp">
+        <div ng-controller="stationController">
+
+            <input type="submit" ng-click="loadData()" value="Load Data" />
+
+            <hr />
+
+            <input type="submit" ng-click="switchSyncing()" value="{{syncBtnName()}}" />
+            <input type="number" ng-model="timeIntervalInSec" ng-init="timeIntervalInSec=5">second(s)
+
+            <p>{{loadingText()}}</p>
+            <p>{{syncEnabledText()}}</p>
+
+            <h2>{{onlineListTitle()}}</h2>
+
+            <hr />
+
+            <div ng-repeat="status in stationStatusList">
+                <div class="col-md-4">
+                    <h3>Station Id: {{status.StationID}}</h3>
+                    {{status.EventDateTime}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
